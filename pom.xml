@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!--Maven 3支持Maven项目的多模块（multi-modules）结构。这样的Maven项目也被称为聚合项目，通常由一个父模块和若干个子模块构成。-->
+    <packaging>pom</packaging>
+    <groupId>com.OovEver</groupId>
+    <artifactId>hutool-parent</artifactId>
+    <version>3.3.0-SNAPSHOT</version>
+    <name>hutool</name>
+    <description>提供丰富的Java工具方法</description>
+<modules>
+    <module>hutool-all</module>
+    <module>hutool-core</module>
+</modules>
+
+</project>

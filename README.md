@@ -1,2 +1,2 @@
 # hutoolLearn
-学习hutool工具
+hutool学习，原项目网址https://gitee.com/loolly/hutool
