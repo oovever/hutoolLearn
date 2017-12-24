@@ -13,4 +13,11 @@ public class StrUtilTest {
         String blank = "	  　";
         Assert.assertTrue(StrUtil.isBlank(blank));
     }
+
+    public static void main(String[] args) {
+        String s = "this is \\{} for {}";
+        System.out.println(s.getClass());
+
+
+    }
 }
